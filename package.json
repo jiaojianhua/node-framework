@@ -1,0 +1,23 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "游戏服务器",
+  "main": "index.js",
+  "dependencies": {
+    "socket.io": "^2.1.0" 
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "should": "^13.2.1",
+    "socket.io-client": "^2.1.0"
+  },
+  "engines": {
+    "node": "8.11.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {},
+  "author": "3VOnline",
+  "license": "ISC"
+}
